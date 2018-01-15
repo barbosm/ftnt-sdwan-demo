@@ -13,6 +13,7 @@ mount --bind /root/scripts/ftnt-sdwan-demo/1.3.1 /srv/ftp/sdwan/1.3.1
 # SSH
 mkdir /root/.ssh
 cp config /root/.ssh/config
+cp authorized_keys /root/.ssh/authorized_keys
 
 # DNS
 cp hosts /etc/hosts
