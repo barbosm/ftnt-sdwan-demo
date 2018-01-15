@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# wanem host wanem_init.sh file
+# must be modified for this script to work
+# comment the last two lines of that file
+# to prevent wanem.sh to start after user login
+
 device='inet.sdw'
 
 printf '\n\n\n Configuring Internet WAN\n\n'
