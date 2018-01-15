@@ -15,6 +15,10 @@ mkdir /root/.ssh
 cp config /root/.ssh/config
 cp authorized_keys /root/.ssh/authorized_keys
 
+cp id_rsa.key_bastion /root/.ssh/id_rsa
+cp id_rsa.pub_bastion /root/.ssh/id_rsa.pub
+
+
 # DNS
 cp hosts /etc/hosts
 mv /etc/dnsmasq.conf /etc/dnsmasq.conf.ori
